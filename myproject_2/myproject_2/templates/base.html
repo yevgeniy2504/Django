@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="RU">
+<head>
+    <title>{% block title %} {{ titel }} {% endblock %}</title>
+</head>
+    <body>
+
+        {% block content %}
+            <p>Скоро тут появится текст...</p>
+        {% endblock %}
+
+        {% block content %}
+            <p>Футер базового шаблона..</p>
+        {% endblock %}
+
+    </body>
+</html>
