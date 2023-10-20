@@ -57,63 +57,6 @@ class Order(models.Model):
     
     def __str__(self):
         return self.client.name
-    
-# Задание 3
-#
-# Path: django/myproject_2/myapp/views.py
-# Создайте представление, которое будет выводить список всех клиентов, зарегистрированных в системе.
-#
-# Path: django/myproject_2/myapp/urls.py
-# Создайте URL-адрес для представления из предыдущего задания.
-#
-# Path: django/myproject_2/myapp/templates/myapp/clients.html
-# Создайте шаблон, который будет выводить список всех клиентов, зарегистрированных в системе.
-#
-# Path: django/myproject_2/myapp/templates/myapp/base.html
-# Создайте базовый шаблон, от которого будут наследоваться все остальные шаблоны.
-#
-# Path: django/myproject_2/myapp/templates/myapp/index.html
-# Создайте шаблон, который будет выводить ссылку на список всех клиентов, зарегистрированных в системе.
-#
-# Path: django/myproject_2/myapp/urls.py
-# Добавьте URL-адрес для представления из предыдущего задания.
-#
-# Path: django/myproject_2/myapp/views.py
-# Добавьте представление, которое будет выводить список всех товаров, добавленных в систему.
-#
-# Path: django/myproject_2/myapp/templates/myapp/products.html
-# Создайте шаблон, который будет выводить список всех товаров, добавленных в систему.
-#
-# Path: django/myproject_2/myapp/templates/myapp/index.html
-# Добавьте ссылку на список всех товаров, добавленных в систему.
-#
-# Path: django/myproject_2/myapp/urls.py
-# Добавьте URL-адрес для представления из предыдущего задания.
-#
-# Path: django/myproject_2/myapp/views.py
-# Добавьте представление, которое будет выводить список всех заказов, оформленных в системе.
-#
-# Path: django/myproject_2/myapp/templates/myapp/orders.html
-# Создайте шаблон, который будет выводить список всех заказов, оформленных в системе.
-#
-# Path: django/myproject_2/myapp/templates/myapp/index.html
-# Добавьте ссылку на список всех заказов, оформленных в системе.
-#
-# Path: django/myproject_2/myapp/urls.py
-# Добавьте URL-адрес для представления из предыдущего задания.
-#
-# Path: django/myproject_2/myapp/views.py
-# Добавьте представление, которое будет выводить список всех товаров, добавленных в систему.
-#
-# Path: django/myproject_2/myapp/templates/myapp/products.html
-# Создайте шаблон, который будет выводить список всех товаров, добавленных в систему.
-#
-# Path: django/myproject_2/myapp/templates/myapp/index.html
-# Добавьте ссылку на список всех товаров, добавленных в систему.
-#
-# Path: django/myproject_2/myapp/urls.py
-# Добавьте URL-адрес для представления из предыдущего задания.
-#
-# Path: django/myproject_2/myapp/views.py
-# Добавьте представление, которое будет выводить список всех заказов, оформленных в системе.
 
+
+    
